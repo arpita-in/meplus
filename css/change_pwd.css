@@ -1,0 +1,112 @@
+@font-face
+{
+    font-family:'Aldrich-Regular';
+    src:url("../fonts/Aldrich-Regular.ttf");
+   /* font-style:normal;
+    font-weight:100;*/
+}
+@font-face
+{
+    font-family:'Coda-Regular';
+    src:url("../fonts/Coda-Regular.ttf");
+    font-style:normal;
+    font-weight:100;
+}
+@font-face
+{
+    font-family:'ReemKufi-Regular';
+    src:url("../fonts/ReemKufi-Regular.ttf");
+    font-style:bold;
+    font-weight:100;   
+}
+@font-face
+{
+    font-family:'NovaSquare';
+    src:url("../fonts/NovaSquare.ttf");
+   font-style:normal;
+    font-weight:100;
+}
+@font-face
+{
+    font-family:'Aladin-Regular';
+    src:url("../fonts/Aladin-Regular.ttf");
+   font-style:normal;
+    font-weight:100;
+}
+@font-face
+{
+    font-family:'Righteous-Regular';
+    src:url("../fonts/Righteous-Regular.ttf");
+   font-style:normal;
+    font-weight:100;
+}
+body{
+	margin: 0;
+	padding:0;
+}
+*{box-sizing: border-box;}
+.row1
+{
+	background: #fff;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#c_pwd_head
+{
+	text-align: center;
+	position: relative;
+	margin-bottom: 40px;
+}.change_col{
+	/*border: solid 1px;*/
+	background: cya;
+}
+ .change_col input, .in input
+{
+    width: 100%;
+    border-radius: 0;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid ; 
+    margin-bottom: 10px;
+    background-color: transparent;
+    font-family: 'Coda-Regular',cursive;
+    font-size: 18px;
+}
+.change_col  input[type="submit"]
+{
+    width: 50%;
+    background:/*#76FF03 #AA00FF*/  #262626;
+    border: double 3px white;
+    /*border-radius: 25px;/*/
+    height: 35px;
+    margin-top: 15px;
+    color: white;
+    font-size: 15px;
+    font-family:'Aldrich-Regular',cursive;
+    font-style: bold;
+}
+  h1:before
+{
+	content: '';
+	height: 3px;
+	width:60%;
+	background-color:#76FF03; 
+	position: absolute;
+	left:20%;
+	bottom: 0;
+	box-shadow: blur  blue 1px;
+
+
+}
+ h1:after
+{
+	content: '';
+	height: 4px;
+	width:36%;
+	background-color: #262626 /*#AA00FF*/; 
+	position: absolute;
+	left: 32%;
+	bottom: 0;
+	line-height: 4px;
+
+}

@@ -1,0 +1,144 @@
+body
+{
+	margin: 0;
+	padding: 0;
+
+	
+}
+@font-face
+{
+    font-family:'Aldrich-Regular';
+    src:url("../fonts/Aldrich-Regular.ttf");
+   /* font-style:normal;
+    font-weight:100;*/
+}
+@font-face
+{
+    font-family:'Coda-Regular';
+    src:url("../fonts/Coda-Regular.ttf");
+    font-style:normal;
+    font-weight:100;
+}
+@font-face
+{
+    font-family:'ReemKufi-Regular';
+    src:url("../fonts/ReemKufi-Regular.ttf");
+    font-style:bold;
+    font-weight:100;   
+}
+@font-face
+{
+    font-family:'NovaSquare';
+    src:url("../fonts/NovaSquare.ttf");
+   font-style:normal;
+    font-weight:100;
+}
+@font-face
+{
+    font-family:'Aladin-Regular';
+    src:url("../fonts/Aladin-Regular.ttf");
+   font-style:normal;
+    font-weight:100;
+}
+@font-face
+{
+    font-family:'Righteous-Regular';
+    src:url("../fonts/Righteous-Regular.ttf");
+   font-style:normal;
+    font-weight:100;
+}
+
+*
+{
+	box-sizing: border-box;
+}
+h1
+{
+    text-align: center;
+
+}
+.color
+{
+    background: #c70039;
+}
+.column_right
+{
+    
+    background: white;
+
+    padding-top: 10px; 
+    /*border-left: 3px solid #c70039;*/
+    
+}
+h3
+{
+    font-family: 'Righteous-Regular',cursive;
+    position: relative;
+    padding-bottom: 5px;
+    /*background: #c70039;*/
+    color: #262626;
+
+}
+h3:before
+{
+    content: "";
+    width: 100%;
+    height:1px;
+    background: black;
+    position: absolute;
+    bottom: 0;
+}
+#profile_head
+{
+    height: 100px;
+    background: /*#c70039*/white ;
+    color: #fff;
+    
+    
+
+}
+#p_head
+{
+    font-family: 'Righteous-Regular',cursive;
+    font-size: 50px;
+    color: black;
+
+}
+.h
+{
+    /*font-family: 'Righteous-Regular',cursive;*/
+    font-size: 17px;
+    font-family:'Coda-Regular';
+    text-decoration: none;
+    color: white;
+}
+.logo{ width: 100px; height: 100px; }
+.logo_img{ width: 50px; height: 50px; }
+
+a
+{
+     text-decoration: none;
+}
+.left
+{
+    padding-top: 10px;
+}
+.form-group .form-control
+{
+   /*margin-bottom: 15px;*/
+}
+.form-group .control-label
+{
+    color: #262626;
+}
+.show_image
+{
+    border: solid 1px; 
+    margin-left: 100px;
+}
+.show_image, .db_img 
+{
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%;
+}

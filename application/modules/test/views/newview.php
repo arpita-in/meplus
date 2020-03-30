@@ -1,0 +1,2 @@
+A OTB has been sended to your mail id:
+<form action="<?php echo base_url();?>test/rec"><input type="text" name="email" value="">ENTER YOUR MAIL<br><input type="submit" name="submit" value="submit"></form>

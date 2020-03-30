@@ -1,0 +1,215 @@
+body
+{
+	margin: 0;
+	padding: 0;
+
+	
+}
+@font-face
+{
+    font-family:'Aldrich-Regular';
+    src:url("../fonts/Aldrich-Regular.ttf");
+   /* font-style:normal;
+    font-weight:100;*/
+}
+@font-face
+{
+    font-family:'Coda-Regular';
+    src:url("../fonts/Coda-Regular.ttf");
+    font-style:normal;
+    font-weight:100;
+}
+@font-face
+{
+    font-family:'ReemKufi-Regular';
+    src:url("../fonts/ReemKufi-Regular.ttf");
+    font-style:bold;
+    font-weight:100;   
+}
+@font-face
+{
+    font-family:'NovaSquare';
+    src:url("../fonts/NovaSquare.ttf");
+   font-style:normal;
+    font-weight:100;
+}
+@font-face
+{
+    font-family:'Aladin-Regular';
+    src:url("../fonts/Aladin-Regular.ttf");
+   font-style:normal;
+    font-weight:100;
+}
+@font-face
+{
+    font-family:'Righteous-Regular';
+    src:url("../fonts/Righteous-Regular.ttf");
+   font-style:normal;
+    font-weight:100;
+}
+
+*
+{
+	box-sizing: border-box;
+}
+.navbar-default{
+    background-color:rgba(255,255,255,.8); ;
+    border-color: transparent;
+}
+ul
+{
+    font-family: 'Coda-Regular',cursive;
+    font-size: 18px;
+}
+.nav li  a:focus{
+    
+   color:#76FF03; /*#AA00FF*/
+        
+}
+
+.log_btn
+{
+    border: 2px solid #AA00FF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    transition: .5s;
+}
+.log_btn:hover
+{
+transition: .5s;
+background: #AA00FF;
+}
+
+.log_btn_a
+{
+    color: white;
+}
+/*------------End of Navbar------------------*/
+#content
+{
+    height: 100vh;
+    width: 100%;
+   /* background-color: #AA00FF;*/
+    background:url(../image2/fg.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    opacity: ;
+    position: relative;
+}
+#content:after
+{
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+}
+
+/*------Sing in form-----------*/
+.heading
+{
+    font-family: 'Righteous-Regular',cursive;
+    margin-bottom: 15px;
+}
+.singin
+{
+    margin-top: 150px;
+    background-color: ;
+    z-index: 80; 
+}
+
+.singup
+{
+    background-color:white;
+    height:320px; /*height: auto;*/
+    text-align: center;
+    z-index: 99; 
+}
+.in
+{
+    color: white;
+    background-color: rgba(0,0,0,.8);
+    height: 320px;
+    text-align: center;
+     z-index: 99; 
+   
+}
+.singup table,.in table {width: 100%; }
+ 
+ .singup input, .in input
+{
+    width: 80%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid ; 
+    margin-bottom: 6px;
+    background-color: transparent;
+    font-family: 'Coda-Regular',cursive;
+}
+
+.singup input[type="submit"]
+{
+    width: 80%;
+    background:/*#76FF03 #AA00FF*/  #262626;
+    border: double 3px white;
+    /*border-radius: 25px;/*/
+    height: 35px;
+    margin-top: 15px;
+    color: white;
+    font-size: 15px;
+    font-family:'Aldrich-Regular',cursive;
+    font-style: bold;
+    
+}
+.in input[type="submit"]
+{
+    width: 80%;
+    background:/*#262626 #76FF03*/ #c70039;
+    border: double 3px #262626;
+    /*border-radius: 0px;/*/
+    height: 35px;
+    margin-top: 5px;
+    color: white;
+    /*border-radius: 25px;/*/
+
+}
+
+.log_with
+{
+     width: 80%;
+     margin:0 auto;
+    background: ;
+    
+}
+.log_with_div
+{
+ display: table;
+ background: ;
+ margin: 0 auto;   
+}
+.log_with .with
+{
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin:0 auto;
+}
+#facebook
+{
+    margin-left: 10px;
+    background: url(../images/f.png);
+    background-size: cover; 
+}
+#google
+{
+    margin-left: 10px;
+    background: url(../images/go.png);
+    background-size: cover; 
+}
